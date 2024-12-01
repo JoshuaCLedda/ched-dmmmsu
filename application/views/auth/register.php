@@ -11,7 +11,7 @@
                 <img src="<?= base_url('assets/images/logo.png'); ?>" width="70" alt="">
 
               </a>
-              <p class="text-center">NARTDI</p>
+              <p class="text-center">CHED-DMMMSU</p>
               <?php if ($this->session->flashdata('success')): ?>
                 <div id="success-alert" class="alert alert-success" role="alert">
                   <?= $this->session->flashdata('success') ?>

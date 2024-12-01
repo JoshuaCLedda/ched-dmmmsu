@@ -9,7 +9,7 @@
                                 <img src="<?= base_url('assets/images/logo.png'); ?>" width="70" alt="">
 
                             </a>
-                            <p class="text-center">NARTDI</p>
+                            <p class="text-center">CHED-DMMMSU</p>
                             <?php if (!empty($error_message)) : ?>
                                 <div class="alert alert-danger"><?= $error_message ?></div>
                             <?php endif; ?>

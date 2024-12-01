@@ -4,13 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>NARTDI Research</title>
+  <title>CHED DMMMSU</title>
   <link rel="shortcut icon" type="image/png" href="<?= base_url('assets/images/logos/favicon.png'); ?>" />
   <!-- <link rel="stylesheet" href="<?= base_url('assets/css/styles.min.css'); ?>" /> -->
   <link rel="stylesheet" href="<?= base_url('assets/css/styles.css'); ?>" />
   <link rel="stylesheet" href="<?= base_url('assets/css/main.css'); ?>" />
   <!-- End Test -->
-  <link rel="icon" href="<?= base_url('assets/images/logo.png'); ?>" type="image/x-icon">
+  <!-- <link rel="icon" href="<?= base_url('assets/images/logo.png'); ?>" type="image/x-icon"> -->
 
   <!-- Icon Boxicon -->
   <link href="<?= base_url('assets/vendor/boxicons/css/boxicons.min.css'); ?>" rel="stylesheet">
@@ -26,6 +26,11 @@
   <script src="<?= base_url('assets/js/jquery.dataTables.min.js') ?>"></script>
   <script src="<?= base_url('assets/js/dataTables.bootstrap5.min.js') ?>"></script>
   <script src="<?= base_url('assets/js/bootstrap.bundle.min.js') ?>"></script>
+	
+	<!-- Charts -->
+  <script src="<?= base_url('assets/vendor/chart.js/chart.umd.js')?>"></script>
+ 
+
 
   <!-- Forms -->
   <script src="<?= base_url('assets/js/forms.js') ?>"></script>

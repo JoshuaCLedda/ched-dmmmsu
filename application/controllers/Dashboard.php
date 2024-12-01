@@ -3,18 +3,19 @@ class Dashboard extends CI_Controller
 {
     public function index()
     {
-        $this->redirectIfUnauthorized();
-        $this->prepareUserData();
+		// Commented for the meantime
+        // $this->redirectIfUnauthorized();
+        // $this->prepareUserData();
     
-        $data['proposal'] = $this->Research->totalMonthlyProposal();
-        $data['evaluation'] = $this->Research->totalMonthlyEvaluation();
-        $data['ongoing'] = $this->Research->totalMonthlyOngoing();
-        $data['completed'] = $this->Research->totalMonthlyCompleted();
+        // $data['proposal'] = $this->Research->totalMonthlyProposal();
+        // $data['evaluation'] = $this->Research->totalMonthlyEvaluation();
+        // $data['ongoing'] = $this->Research->totalMonthlyOngoing();
+        // $data['completed'] = $this->Research->totalMonthlyCompleted();
 
         $this->load->view('partials/header');
         $this->load->view('partials/sidebar');
         $this->load->view('partials/navbar');
-        $this->load->view('admin/dashboard', $data);
+        $this->load->view('admin/dashboard');
         $this->load->view('partials/footer');
     }
     

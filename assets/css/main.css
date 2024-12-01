@@ -1,0 +1,16 @@
+.nav-content {
+    max-height: 0; /* Start with a height of 0 */
+    opacity: 0; /* Start with opacity 0 */
+    overflow: hidden; /* Hide overflow to prevent content from showing */
+    transition: max-height 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+  }
+  .nav-content.show {
+    max-height: 1000px; /* Arbitrary large value to allow content expansion */
+    opacity: 1; /* Fade in the content */
+  }
+  .nav-small-cap-icon {
+    transition: transform 0.3s ease; /* Smooth rotation */
+  }
+  .nav-small-cap-icon.rotate {
+    transform: rotate(180deg); /* Rotate the icon */
+  }

@@ -32,7 +32,7 @@
 				</li>
 
 				<li class="sidebar-item">
-					<a class="sidebar-link" href="<?= base_url('research'); ?>" aria-expanded="false">
+					<a class="sidebar-link" href="<?= base_url('scholarship'); ?>" aria-expanded="false">
 						<span>
 							<i class="ti ti-files"></i>
 						</span>

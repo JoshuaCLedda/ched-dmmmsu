@@ -11,3 +11,7 @@ $route['register'] = 'Register';
 
 // Admin
 $route['admin/dashboard'] = 'Dashboard';
+
+
+//Scholars
+

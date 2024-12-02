@@ -14,4 +14,13 @@ $route['admin/dashboard'] = 'Dashboard';
 
 
 //Scholars
+$route['admin/scholars'] = 'Scholars';
+$route['admin/scholars/create'] = 'Scholars/create';
+$route['admin/edit/(:num)'] = 'Scholars/edit/$1';
+
+
+
+//Students
+
+
 

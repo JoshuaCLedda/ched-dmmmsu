@@ -7,10 +7,32 @@ class Scholars extends CI_Controller
         $this->load->view('partials/header');
         $this->load->view('partials/sidebar');
         $this->load->view('partials/navbar');
-        $this->load->view('admin/dashboard');
+        $this->load->view('admin/scholars/index');
         $this->load->view('partials/footer');
     }
     
+    public function create()
+    {
+
+        $this->load->view('partials/header');
+        $this->load->view('partials/sidebar');
+        $this->load->view('partials/navbar');
+        $this->load->view('admin/scholars/create');
+        $this->load->view('partials/footer');
+    }
+
+
+        
+    public function edit($id)
+    {   
+        // function here
+
+        $this->load->view('partials/header');
+        $this->load->view('partials/sidebar');
+        $this->load->view('partials/navbar');
+        $this->load->view('admin/scholars/create');
+        $this->load->view('partials/footer');
+    }
     
     private function redirectIfUnauthorized()
     {
